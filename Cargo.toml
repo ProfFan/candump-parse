@@ -1,0 +1,10 @@
+[package]
+name = "candump-parse"
+version = "0.1.0"
+edition = "2021"
+authors = ["Fan Jiang"]
+license = "MIT OR Apache-2.0"
+keywords = ["candump", "can", "socketcan"]
+
+[dependencies]
+chumsky = { version = "0.9.*", default-features = false }
